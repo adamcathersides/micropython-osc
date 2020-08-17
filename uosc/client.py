@@ -8,7 +8,7 @@ try:
 except ImportError:
     from struct import pack
 
-from uosc.common import Bundle, to_frac
+from uosc.uosc.common import Bundle, to_frac
 
 
 if isinstance('', bytes):
